@@ -19,7 +19,7 @@
     </b-list-group>
 
   <p v-else>
-    Search result is empty...
+    Movie list is empty...
   </p>
 </template>
 
