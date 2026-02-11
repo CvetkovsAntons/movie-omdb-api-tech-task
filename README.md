@@ -10,13 +10,13 @@ The application uses Redis for caching and is fully dockerized.
 
 ## Environment setup
 
-Before starting the project, create a `.env` file:
+Before starting the project, create a `.env` file in `backend` directory:
 
 ```bash
-cp .env.example .env
+cp backend/.env.example backend/.env
 ``` 
 
-Then open the .env file and set your OMDb API token:
+Then open the `.env` file and set your OMDb API token:
 
 ```dotenv
 OMDB_API_TOKEN=your_api_token_here
