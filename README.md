@@ -35,3 +35,11 @@ make run-tests
 ```bash
 docker compose exec php php artisan test
 ```
+
+---
+
+## Using the Application
+
+After starting the project, open the frontend in your browser:
+
+http://localhost:5173
