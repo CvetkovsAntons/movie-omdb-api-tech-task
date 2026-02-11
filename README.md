@@ -17,7 +17,7 @@ The project runs entirely inside Docker.
 ```bash
 make run-app
 ``` 
-### Option 2 (manual)
+### Option 2
 ```bash
 docker compose up -d
 ```
@@ -31,7 +31,7 @@ docker compose up -d
 ```bash
 make run-tests
 ``` 
-### Option 2 (manual)
+### Option 2
 ```bash
 docker compose exec php php artisan test
 ```
